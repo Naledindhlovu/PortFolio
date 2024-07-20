@@ -87,7 +87,7 @@ margin-bottom: 60px;
     position: absolute;
     top: 100%;
     left: 0;
-    margin-top: 7px;
+    margin-top: 8px;
     
 }
 .row{
@@ -324,4 +324,14 @@ h3.my-profession{
      line-height: 25px;
      color: var(--text-black-700);
  
+  }
+  .about .about-content .personal-info{
+    flex: 0 0 50%;
+    max-width: 60%;
+    background-color: rgb(215, 156, 196);
+  }
+  .about .about-content .skills{
+    flex:  0 0 50%;
+    max-width: 60%;
+    background-color: rgb(199, 109, 130);
   }
