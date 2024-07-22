@@ -140,7 +140,7 @@ z-index: 10;
     color: var(--text-black-900);
     font-weight: 800;
     padding: 1px 10px;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 5px;
     position: absolute;
 }
@@ -215,7 +215,6 @@ position: relative;
  }
  .aside .nav li{
     margin-bottom: 20px;
-    
     display: block;
  }
  .aside .nav li a{
@@ -231,6 +230,7 @@ position: relative;
 }
 .aside .nav li a i{
 margin-right: 15px;
+color: var(--text-black-900);
 }
 /*home*/
 .home{
