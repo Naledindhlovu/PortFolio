@@ -34,7 +34,6 @@ ul{
     min-height: 100vh;
     display: block;
     padding: 0 30px;
-    
     opacity: 1;
 }
 .hidden{
@@ -225,13 +224,16 @@ position: relative;
     color: var(--text-black-900);
     padding: 5px 15px;
  }
+
 .aside .nav li a.active{
     color: var(--skin-color);
 }
+
 .aside .nav li a i{
 margin-right: 15px;
 color: var(--text-black-900);
 }
+
 /*home*/
 .home{
     min-height: 100vh;
@@ -389,4 +391,11 @@ h3.my-profession{
     height: 100%;
     border-radius: 4px;
     background-color: var(--skin-color);
+}
+/*education*/
+.education .section-title, .education .section-title{
+flex: 0 0 50%;
+max-width: 50%;
+margin-top: 30px;
+
 }
