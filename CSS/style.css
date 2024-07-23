@@ -399,3 +399,17 @@ max-width: 50%;
 margin-top: 30px;
 
 }
+.education .section-title .timeline-box{
+    flex: 0 0 1005;
+    max-width: 100%;
+}
+.education .section-title .timeline{
+   background-color: var(--bg-black-100);
+   padding: 20px 10px;
+   border: 1px solid var(--bg-black-50);
+   border-radius: 5px;
+   width: 100%;
+   height: 50%;
+   position: relative;
+
+}
