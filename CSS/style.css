@@ -111,6 +111,9 @@ margin-bottom: 60px;
 .btn:hover{
     transform: scale(1.05);
 }
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48, 46, 77,  0.15);
+}
 /*aside*/
 
 .aside{
@@ -399,17 +402,22 @@ max-width: 50%;
 margin-top: 30px;
 
 }
+.education .section-title h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
 .education .section-title .timeline-box{
-    flex: 0 0 1005;
+    flex: 0 0 100%;
     max-width: 100%;
 }
 .education .section-title .timeline{
    background-color: var(--bg-black-100);
-   padding: 20px 10px;
+   padding: 30px 15px;
    border: 1px solid var(--bg-black-50);
-   border-radius: 5px;
+   border-radius: 10px;
    width: 100%;
-   height: 50%;
    position: relative;
-
 }
