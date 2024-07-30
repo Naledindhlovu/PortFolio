@@ -12,6 +12,7 @@ body{
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppons' sans-serif;
+    background-image: url('images/email signature');
    
 }
 ul{
@@ -607,4 +608,16 @@ cursor: pointer;
 .home .home-img{
     display: none;
 }
+}
+@media (max-width:767px){
+    .contact .contact-form .col-6
+    .contact .contact-info-item
+    .project .project-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+  .about .about-content .skills,
+  .about .about-content .personal-info{
+     flex:  0 0 100%;
+     max-width: 100%;
+  }  
 }
