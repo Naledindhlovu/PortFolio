@@ -69,4 +69,9 @@ justify-content: space-between;
 .style-switcher .color-5{
     background: #129dd4;
 }
+.contact-info
+{
+    padding: 30px;
+    margin: 30px;
+}
 
