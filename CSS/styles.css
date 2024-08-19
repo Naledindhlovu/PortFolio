@@ -396,6 +396,109 @@ h3.my-profession{
     border-radius: 4px;
     background-color: var(--skin-color);
 }
+/*services*/
+
+.row .service-item{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.row .service-item .service-item-inner{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.row .service-item .service-item-inner:hover{
+  box-shadow: 0 0 20px rgb(199, 15, 138);  
+}
+.row .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.row .service-item .service-item-inner .icon .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+}
+.row .service-item .service-item-inner:hover .icon{
+    background: var(--skin-color);
+}
+.row .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #e8dfec;
+}
+.row .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-700);
+    text-transform: capitalize;
+}
+.row .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+/* Media Queries for Responsive Design */
+
+@media (max-width: 992px) {
+    .row .service-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row .service-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .row .service-item .service-item-inner h4 {
+        font-size: 16px;
+    }
+
+    .row .service-item .service-item-inner p {
+        font-size: 14px;
+    }
+
+    .row .service-item .service-item-inner .icon .fa {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .row .service-item .service-item-inner {
+        padding: 20px 10px;
+    }
+
+    .row .service-item .service-item-inner h4 {
+        font-size: 14px;
+    }
+
+    .row .service-item .service-item-inner p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .row .service-item .service-item-inner .icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .row .service-item .service-item-inner .icon .fa {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
 /*education*/
 .education .section-title, .education .section-title{
 flex: 0 0 50%;
@@ -571,7 +674,7 @@ cursor: pointer;
    transition: all 0.3s ease;
 }
 .contact .contact-form .form-item .form-control:focus{
-   box-shadow: 0 0 20px rgb(192, 100, 161);
+   box-shadow: 0 0 20px var(--skin-color);
 }
 .contact .contact-form .form-item textarea.form-control{
     height: 140px;
