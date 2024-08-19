@@ -8,7 +8,11 @@
    background: var(--bg-black-100);
    z-index: 101;
    background-origin: 5px;
-   transition: all  0.3s ease
+   transition: all  0.3s ease;
+   transform: translateX(100%);
+}
+.style-switcher.open{
+    transform: translateX(-25px);
 }
 .style-switcher .s-icon{
     position: absolute;
@@ -55,18 +59,18 @@ justify-content: space-between;
     border: 1px solid var(--skin-color);
 }
 .style-switcher .color-1{
-    background: #cc4377;
+    background: #575809;
 }
 .style-switcher .color-2{
-    background: #eea12d;
+    background: #08bcc2;
 }
 .style-switcher .color-3{
-    background: #e00e0e;
+    background: #973e3e;
 }
 .style-switcher .color-4{
-    background: #11df22;
+    background: #7da580;
 }
 .style-switcher .color-5{
-    background: #129dd4;
+    background: #909394;
 }
 

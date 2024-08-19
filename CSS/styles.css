@@ -115,6 +115,8 @@ margin-bottom: 60px;
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 46, 77,  0.15);
 }
+
+
 /*aside*/
 
 .aside{
@@ -396,6 +398,10 @@ h3.my-profession{
     border-radius: 4px;
     background-color: var(--skin-color);
 }
+
+
+
+
 /*services*/
 
 .row .service-item{
@@ -446,58 +452,7 @@ h3.my-profession{
     color: var(--text-black-700);
     line-height: 25px;
 }
-/* Media Queries for Responsive Design */
 
-@media (max-width: 992px) {
-    .row .service-item {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-}
-
-@media (max-width: 768px) {
-    .row .service-item {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .row .service-item .service-item-inner h4 {
-        font-size: 16px;
-    }
-
-    .row .service-item .service-item-inner p {
-        font-size: 14px;
-    }
-
-    .row .service-item .service-item-inner .icon .fa {
-        font-size: 35px;
-    }
-}
-
-@media (max-width: 576px) {
-    .row .service-item .service-item-inner {
-        padding: 20px 10px;
-    }
-
-    .row .service-item .service-item-inner h4 {
-        font-size: 14px;
-    }
-
-    .row .service-item .service-item-inner p {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .row .service-item .service-item-inner .icon {
-        height: 50px;
-        width: 50px;
-    }
-
-    .row .service-item .service-item-inner .icon .fa {
-        font-size: 30px;
-        line-height: 50px;
-    }
-}
 
 /*education*/
 .education .section-title, .education .section-title{
@@ -542,15 +497,7 @@ margin-top: 30px;
    top: 0;
    background-color: var(--skin-color); 
 }
-/*.education .section-title .timeline .circle-dot{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    background-color: var(--skin-color);
-}*/
+
 .education .section-title .timeline .timeline-date{
     font-weight: 400;
     font-size: 14px;
@@ -573,6 +520,75 @@ margin-top: 30px;
     text-align: justify;
     color: var(--text-black-700);
 }
+/* Media Queries for Responsive Design */
+
+@media (max-width: 992px) {
+    .education .section-title {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .education .section-title h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .education .section-title h2 {
+        font-size: 20px;
+    }
+
+    .education .section-title .timeline {
+        padding: 20px 10px;
+    }
+
+    .education .section-title .timeline .timeline-item {
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+
+    .education .section-title .timeline .timeline-date {
+        font-size: 13px;
+    }
+
+    .education .section-title .timeline .timeline-title {
+        font-size: 13px;
+    }
+
+    .education .section-title .timeline .timeline-text {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 576px) {
+    .education .section-title h2 {
+        font-size: 18px;
+    }
+
+    .education .section-title .timeline {
+        padding: 15px 5px;
+    }
+
+    .education .section-title .timeline .timeline-item {
+        padding-left: 25px;
+        padding-bottom: 30px;
+    }
+
+    .education .section-title .timeline .timeline-date {
+        font-size: 12px;
+    }
+
+    .education .section-title .timeline .timeline-title {
+        font-size: 12px;
+    }
+
+    .education .section-title .timeline .timeline-text {
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+
 /*projects*/
 .project .container{
     padding-bottom: 40px;
@@ -713,6 +729,7 @@ cursor: pointer;
 }
 }
 @media (max-width:767px){
+    .row .service-item,
     .contact .contact-form .col-6
     .contact .contact-info-item
     .project .project-item,
