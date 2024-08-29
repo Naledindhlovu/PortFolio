@@ -12,20 +12,19 @@ window.addEventListener("scroll", () =>{
 /*theme colors*/
 const alternateStyles = document.querySelectorAll(".alternate-style");
 
-function setActiveStyle(color) {
-    let styleFound = false;
+function setActiveStyle(color)
+ {
     alternateStyles.forEach((style) => {
-        if (color === style.getAttribute("title")) {
+        if (color === style.getAttribute("title"))
+        {
             style.removeAttribute("disabled");
-            styleFound = true;
-        } else {
+            
+        }
+         else
+        {
             style.setAttribute("disabled", "true");
         }
-    });
-
-    if (!styleFound) {
-        console.warn(`No style found for color: ${color}`);
-    }
+    })
 }
 
  /*theme  light an ddark mode*/
